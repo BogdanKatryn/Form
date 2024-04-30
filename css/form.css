@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;  /* Общий шрифт */
+    background-color: #f0f0f0;  /* Цвет фона */
+    margin: 0;  /* Убираем отступы по краям */
+    padding: 20px;  /* Отступы внутри */
+}
+
+h1 {
+    color: #333;  /* Цвет заголовка */
+    text-align: center;  /* Выравнивание по центру */
+}
+
+form {
+    background-color: white;  /* Фон формы */
+    border: 1px solid #ccc;  /* Граница формы */
+    padding: 20px;  /* Внутренние отступы формы */
+    margin: 20px auto;  /* Внешние отступы формы */
+    max-width: 500px;  /* Максимальная ширина формы */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);  /* Тень для формы */
+}
+
+label {
+    display: block;  /* Блоковое отображение */
+    margin-bottom: 10px;  /* Отступ снизу */
+    font-weight: bold;  /* Жирный шрифт */
+}
+
+input, select {
+    font-size: 16px;  /* Размер шрифта */
+    padding: 10px;  /* Внутренние отступы */
+    border: 1px solid #ccc;  /* Граница */
+    border-radius: 4px;  /* Закругленные края */
+    width: 100%;  /* Полная ширина */
+    box-sizing: border-box;  /* Учитывать границы при расчетах ширины */
+}
+
+.cb, .rb {
+    display: inline-block;  /* Отображение внутри строки */
+    width: 20px;  /* Ширина для чекбоксов/радиокнопок */
+    height: 20px;  /* Высота для чекбоксов/радиокнопок */
+}
+
+.inpb {
+    font-size: 16px;  /* Размер шрифта кнопок */
+    padding: 10px 20px;  /* Внутренние отступы кнопок */
+    border: 1px solid #ccc;  /* Граница кнопок */
+    background-color: #f0f0f0;  /* Фон кнопок */
+    border-radius: 4px;  /* Закругленные края кнопок */
+    cursor: pointer;  /* Указатель при наведении */
+}
+
+.inpb:hover {
+    background-color: #e0e0e0;  /* Фон кнопок при наведении */
+}
